@@ -64,16 +64,12 @@ python auto_clicker.py
 
 ## 🛠️ Configuration
 
-- **Target pixel position:** `(314, 415)`  
-- **Target color (RGB):** `(75, 219, 106)`  
-- **Stop key:** `"q"` by default
+- **Stop key:** `"F10"` by default
 
 You can customize these settings by editing the following variables in the script:
 
 ```python
-pixel_position = (314, 415)
-target_color = (75, 219, 106)
-stop_key = 'q'
+stop_key = 'F10'
 ```
 
 ---
@@ -103,7 +99,7 @@ python auto_clicker.py -d
 
 ## 🛑 Stopping the Script
 
-To stop the script safely, press the key configured in the `stop_key` variable (default is `'q'`).  
+To stop the script safely, press the key configured in the `stop_key` variable (default is `'F10'`).  
 The script listens for this key in the background and exits gracefully when pressed.
 
 ---
@@ -124,7 +120,7 @@ Be sure to include a clear description of your changes and any relevant tests or
 
 ## 👤 Author
 
-[Your Name]
+NovaZay
 
 ---
 
